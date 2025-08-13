@@ -1,0 +1,444 @@
+
+Oops Concept
+ inheritance -- 
+   class A{
+   void m1();
+	{
+	 System.out.println("A m1 method");
+	}
+  }
+
+ class B{
+   public void m1();
+	{
+	 System.out.println("B m1 method");
+	}
+  }
+
+here Subclass have public specifiers and supper class have default specifiers.. what it will happen in this case
+same what exception throws in supper method but its not thrown in subclass. what it will happen in this case
+
+collection what and used
+difference between array list and linked list and when use what
+hashmap internal working
+   hashmap have list of employee while iterating if we add new value what will happen and delete/remove case what it will happen
+
+
+Thread: how many ways we can create thread
+  what is the difference between runnable and callable
+executor framework -- submit method what is the input
+
+hibernate:
+  one to many -- joinColum and all explanation
+ how the child ref object will save.
+    cascade = CascadeType.All.
+ he won't ask directly cascade, he will explain the scenario we need to identify the concept like cascading 
+ how the id will generate (@ID  @GenerationType.SEQUENCE)
+
+Queries:
+  second highest salary
+     
+spring : spring bean scope related questions and when it will be done bean initialization (Spring context initialization time)
+  execution of Order beans questions
+inject an interface and let spring automatically inject the appropriate implementation (@qualifier)
+  
+spring Boot:
+  what all features
+ Global Exception handling
+
+Kafka: all basic questions (Broker, partition)
+ 
+Redis:    
+===========================
+
+write thread safe singleton class
+write CustomLinkedList class (add functionality and find middle element in linked list)
+To group Strings based on their length(size) from a given list 
+difference between java8 vs java17
+garbage related questions
+Kubernetes Architecture and features.
+Logging in project
+monitoring tool
+volatile vs transient
+head and static memory questions
+how to prevent static memory issues
+any thing achieved most difficulties why developing 
+some basic spring boot annotations
+How APIGEE secure the API's
+
+==========================
+query param and post request
+Find duplicate element from array
+Spring batch flow and any example which you do in ur project
+monoliths vs microservices
+how to manage your transactions in ur project
+how have u did service communication
+CORS
+How to secure ur app using JWT
+design pattern is used ur project
+stream api and its uses
+deserialize the rest api
+project flow
+what is roles in ur project have you handled team or working a team member
+PROS n CONS of microservice and spring 
+
+---------------------------------------------------
+how did you cached the data using in memory or external memory management
+how to send data in web app or mobile application because mobile will present less data than web app
+how to handle if you got server error 500 what will you do in that case
+how to test you microservice call using jnit or mockito frame work
+which testing tool used in your application
+how to improve your application performance
+how to improve your performace with insert query
+Explain how you can override the default properties of Spring boot projects.
+Life cycle of spring beans examples
+purpose of OPTIONS  method 
+How to change diff database in spring boot application
+difference between  Native query and @Query
+what is the purpose of  @Qualifier and @Primary
+How to check issues on production after deployment of application on prod. 
+What is the use of Completable future and what are its benefits.
+How you will transfer huge amount of data from one API to another API in optimized way.
+
+What is difference between HashMap and WeakHashMap in Java?
+Write a program to find the highest frequency of a character in a given string using java8
+why we need to override equals and hashcode in java example
+
+find missing element from array and also remove duplicate element.
+int n=5;
+int arr[]=new int(){1,3,2,5,1};
+
+interface MyInterface{  
+    int add(int a,int b);  
+} 
+
+Addable withLambdaD = (int a,int b) -> (a+b);  
+        System.out.println(withLambdaD.add(100,200)); 
+--------------------------
+class Parent{
+
+void A(){sop()}
+
+}
+
+Child extends Parent{
+
+void A(){}
+
+
+
+}
+
+Parent p= new Parent();
+p.A();
+Parent p2= new Child();
+p2.A()
+---------------------
+String code:
+
+String s1="abc";
+String s2="abc";
+s1.concat("def");
+String s3= new String("xyz");
+sop(s1);
+----------------
+
+Vehicle->  drive() 
+
+Car extends Vehicle->  drive()
+ 
+Car c = new Car();
+Vehicle v = c;
+v.drive();
+
+----------------------
+
+@component
+pubic class Test{
+	private ServiceA serviceA;
+	private ServiceB serviceB;
+	public Test(ServiceA serviceA){
+		this.serviceA = serviceA;
+		this.serviceB =null;
+		}
+ 
+	public Test(ServiceB serviceB){
+		this.serviceB = serviceB;
+		this.serviceA =null;
+		}
+ 
+	}
+------------------------------
+can we use both @ComponentScan and explicit @Bean defination together?
+------------------------------------------------------------
+Select * from Employee order by salary desc offset 3 row fetch 1 row only;
+Core Java:
+
+Given an input string , write a function that returs the run length encoded string for the input string:
+for example:
+if the input string is : "wwwwaaadexxxxxx"
+then the function should return out : "w4a3d1e1x6
+expected time complexity : O(n)
+
+String input="wwwwaaadexxxxxx";
+Output : "w4a3d1e1x6"
+
+write program department wise and who's salary is greater than 50000.
+write a query to give the 4 highest salary from the employee table
+n
+How to separate zeros from non-zeros in an array?
+input -int [] input= {14, 0, 5, 2, 0, 3, 0};
+output- {0, 0, 0, 14, 5, 2, 3}
+
+Double-Checked Locking with Singleton
+Internal working of HashSet
+what is overloading and overriding with example
+About status code 401,403 and 500 and how to handle it
+About transaction in microservices
+Exception handling in spring boot
+Circular dependency
+What are the Main Components of Java Spring Boot Microservices?
+How do Microservices Communicate with each other?
+How do you handle data consistency in microservices?
+How can you handle distributed transactions in microservices?
+What are idempotent operations, and why are they important in microservices?
+How can you achieve fault tolerance in microservices architecture?
+What is the role of centralised logging and monitoring in microservices architecture?
+How do you handle inter-service communication timeouts and retries?
+what is use completable future 
+Explain the concept of a bounded context in Domain-Driven Design and its relevance to microservices.
+How to check issues on production after deployment of application on prod.
+In hibernate whats diff between @entity , @entity(name = "") , @entity(tablename = "")
+
+3. what is store procedure and how to call store procedure in hibernate.
+
+how to Debugging your services if service failures
+
+How can you handle distributed transactions in microservices?
+
+
+-----------------------------------------------------------------------
+1. what is deadlock and write the code for deadlock?
+2. write program department wize and who's salary is greater than 50000.
+3. what is store procedure and how to call store procedure in hibernate.
+4 which certificate is used in your project
+5.Cloning process
+6.Kafka architecture
+6. starvation
+7.what is consumer group whether consumer group won't have then how it will work?
+8. why waiting and notify method are available in object class
+9. what is race condition in multithreading , write the code for race condition and how to avoid race condition 
+
+Note Interview question:
+
+String code:
+
+String s1="abc";
+String s2="abc";
+s1.concate("def");
+String s3= new String("xyz");
+sop(s1);
+-----------------
+deadlock and write the code for deadlock
+print 1 to 5 without using build in method and loop
+Swaping string without third variable?
+
+String a = "Hello"; 
+String b = "World";
+
+what are design pattrn used in you project?
+what is CQRS design pattern?
+--------------------------------------------
+How To Find First Repeated And Non-Repeated Character In A String?
+Java program to find smallest and second smallest element in an integer array. 
+
+ How to sort array elements by frequency in Java?
+How to separate zeros from non-zeros in an array?
+How do you find longest substring without repeating characters in a string?
+How do you count occurrences of each element in an array?
+
+How do you merge two unsorted arrays into single sorted array using Java 8 streams?
+
+Find sum of all digits of a number in Java 8?
+
+int i = 15623;
+         
+        Integer sumOfDigits = Stream.of(String.valueOf(i).split("")).collect(Collectors.summingInt(Integer::parseInt));
+         
+        System.out.println(sumOfDigits);
+
+How do you find common elements between three arrays?
+
+List<Integer> list1 = Arrays.asList(71, 21, 34, 89, 56, 28,50);
+         
+        List<Integer> list2 = Arrays.asList(12, 56, 17, 21, 94, 34,50);
+	 List<Integer> list2 = Arrays.asList(13, 56, 17, 21, 96, 34,50);
+         
+        list1.stream().filter(list2::contains).forEach(System.out::println);
+    
+
+Given an input string , write a function that returs the run length encoded string for the input string:
+for example:
+if the input string is : "wwwwaaadexxxxxx"
+then the function should return out : "w4a3d1e1x6
+expected time complexity : O(n)
+
+Internal working of hashset
+
+ Explain how you can override the default properties of Spring boot projects.
+What do you mean by Bounded Context?
+What do you mean by Distributed Transaction?
+Diff SOA refers to Service-Oriented Architecture and microservices architecture
+What is the difference between Monolithic, SOA, and Microservices Architecture?
+Explain the design patterns of Java Spring Boot Microservices.?
+What are the Main Components of Java Spring Boot Microservices?
+How do you handle data consistency in microservices?
+
+How can you handle distributed transactions in microservices?
+
+
+-------------------------------
+Core Concepts & Architecture
+- What is the difference between Session and EntityManager?
+- How does Hibernate manage the lifecycle of an entity?
+- Explain the role of SessionFactory. How is it different from Session?
+- What are the different states of an object in Hibernate (transient, persistent, detached)?
+
+⚙️ Performance & Optimization
+- How does Hibernate implement caching? What’s the difference between first-level and second-level cache?
+- What is the N+1 select problem in Hibernate, and how do you solve it?
+- How do you batch insert/update records in Hibernate?
+
+🧠 Querying & Fetching
+- What is the difference between HQL and Criteria API?
+- Explain the difference between get() and load() methods.
+- What are the different fetching strategies in Hibernate? (lazy vs eager)
+- How do you use @NamedQuery and @NamedNativeQuery?
+
+🔐 Transactions & Concurrency
+- How does Hibernate handle transactions internally?
+- What is optimistic vs pessimistic locking in Hibernate?
+- How do you configure isolation levels in Hibernate?
+
+🧩 Mapping & Relationships
+- How do you map a one-to-many or many-to-many relationship?
+- What’s the difference between cascade types like PERSIST, MERGE, and ALL?
+- How do you handle composite keys in Hibernate?
+
+🧪 Real-World Scenarios
+- Have you ever had to tune Hibernate for performance? What did you do?
+- How do you debug lazy loading exceptions?
+- How do you integrate Hibernate with Spring Boot?
+
+If you'd like, I can simulate a mock interview or help you craft answers to any of these. Want to dive into caching or fetching strategies next?
+
+
+------------------------------------------------------------BARCLAYS
+1) what is @Primary and @Qualifier explain in details with example?
+ 
+2) what is the dependency injection explain in details with example?
+ 
+3) what is get and post?
+ 
+4) If we will post duplicate data in database without primary key how we can check duplicate data. And same for get data suppose by mistake we hitting 2 or multiple times getService layer and adding duplicate date in retrieving list. How can fix that problem.
+ 
+5) what is stateless and stateful?
+ 
+6) what is path variable and query parameter?
+ 
+7) what is authentication and authorization?
+ 
+8) what is dynamic properties in Spring Boot?
+ 
+9) what is interceptor why we use this?
+ 
+10) List<Integer> list1 = Arrays.asList(1, 3, 5, 7, 9);
+
+  List<Integer> list2 = Arrays.asList(2, 4, 6, 8, 10);
+
+  Qus: outPut should be 1,2,3,4,5,6,7,8,9,10
+ 
+11) Qlik API 
+
+--> StartRun --> returns nothing back to us; but needs to be fired to start Job
+
+--> fetchStatusByName
+
+           ---> Payload
+
+               ---> Current Job Status : { 2 --> Running, 1 --> Queued, 7 --> Success, 8 --> Fail}
+
+               Only 1 job can run at a time, other requests will be queued
+
+12) @Transactional annotation
+ 
+14) JPARepository
+ 
+15) FeignClient
+
+
+This requirement is for Guidewire claims area where the client is fine to accept strong Java Springboot candidates even if they don’t have GW experience.
+ -----------------
+ 
+write thread safe singleton class
+write CustomLinkedList class (add functionality and find middle element in linked list)
+To group Strings based on their length(size) from a given list 
+difference between java8 vs java17
+garbage related questions
+Kubernetes Architecture and features.
+Logging in project
+monitoring tool
+volatile vs transient
+head and static memory questions
+how to prevent static memory issues
+any thing achieved most difficulties why developing 
+some basic spring boot annotations
+How APIGEE secure the API's
+
+query param and post request
+Find duplicate element from array
+Spring batch flow and any example which you do in ur project
+monoliths vs microservices
+how to manage your transactions in ur project
+how have u did service communication
+CORS
+How to secure ur app using JWT
+design pattern is used ur project
+stream api and its uses
+deserialize the rest api
+project flow
+what is roles in ur project have you handled team or working a team member
+PROS n CONS of microservice and spring 
+
+------------------------------
+1. what is versioning in spring boot.
+2. modelmapper and mapstruct
+------------------------------------------------
+Security for a web application will be implemented in different ways like,https,ssl,authentication,authorization etc.
+Avoiding most common attacks likes: CSRF,XSS,CORS inside our application.
+
+How many barber shop is needed in a city assumption that each person visits the shop once in a month" 
+
+
+you can prepare on ur CV, mostly he will ask on the project that you prev worked, 
+
+whats is the business req and wat was your approach to the business req,
+ 
+which all technology u have used
+
+ "How many barber shop is needed in a city assumption that each person visits the shop once in a month" 
+
+Overall : mostly on ur prev project and role n approach 
+
+
+About 2400 barbers Assuming people get a haircut once a month, 
+haircuts are spread out evenly accounting for a one day break in the week, 
+each haircut takes on average 30 mins with cleaning etc. and working an 8 hour shift. (i.e. 16 haircuts per barber) 
+1,000,000/(26*16)
+
+
+int arr[]=new array{3,200,5,12,1};
+
+sum consecutive number 
+
+3,5,1

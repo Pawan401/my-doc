@@ -1,0 +1,66 @@
+Hands-on Labs for AWS Certified Cloud Practitioner [CLF-C01]
+ 
+https://www.101labs.net/courses/101-labs-aws-certified-cloud-practitioner/
+ 
+https://www.coursera.org/specializations/aws-cloud-practitioner-certification-course
+ sudo yum update
+ 
+sudo yum install mariadb105-server
+ 
+sudp systemctl start mariadb
+ 
+sudo system enable mariadb
+ 
+mysql -u root -p
+ sudo yum install httpd -y
+ 
+sudo systemctl start httpd
+ cd /var/www/html
+ 
+sudo nano index.html
+ 
+Course: [NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 2025 | Udemy Business
+
+-----------------------------------------------------------
+ sudo yum update -y
+ 
+ sudo yum install -y https://downloads.mariadb.com/MariaDB/mariadb_repo_setup
+sudo mariadb_repo_setup --mariadb-server-version=10.5
+
+sudo yum install -y mariadb105-server
+
+--------------------working command-----------------
+sudo yum install mariadb-server -y
+sudo systemctl enable mariadb
+sudo systemctl start mariadb
+sudo systemctl start mariadb
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';
+FLUSH PRIVILEGES;
+EXIT;
+
+
+Course: [NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 2025 | Udemy Business
+ 
+Course: 6 Practice Exams | AWS Certified Cloud Practitioner CLF-C02 | Udemy Business
+ 
+https://capgemini.udemy.com/course/aws-certified-cloud-practitioner-practice-exams-c/learn/
+ 
+CLF-C02: AWS Certified Cloud Practitioner Certification
+ 
+AWS Certified Cloud Practitioner Exam - Free Exam Q&As, Page 1 | ExamTopics
+
+https://degreed.com/pathway/m90m6le086/pathway
+ 
+https://www.hackerrank.com/test/3i93bmfdbng/login?b=eyJ1c2VybmFtZSI6InBhd2FuLmEua3VtYXJAY2FwZ2VtaW5pLmNvbSIsInBhc3N3b3JkIjoiY2M4NWMyNjQiLCJoaWRlIjp0cnVlLCJhY2NvbW1vZGF0aW9ucyI6eyJhZGRpdGlvbmFsX3RpbWVfcGVyY2VudCI6MH19
+
+EC2,storage,dabase,pricing and billing
+
+https://digitalcloud.training/category/aws-cheat-sheets/aws-cloud-practitioner/
+Aws:creative.pawan401/Reyansh@123456
+
+---------------------
+https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/
+
+AWS CG-pass-Pawan@12345
+SonarQube:admin/Pawan@123456
+HikerRank: pawan.a.kumar@capgemini.com/Pawan@12345

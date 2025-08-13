@@ -1,0 +1,54 @@
+git config --global user.name "pawan"
+git config --global user.email "pawan.a.kumar@capgemini.com"
+git init
+git status
+git diff
+git add LM-UK-CG-Pallavi-Sinha.doc
+ git status
+ git diff
+git status
+git add *
+git status
+git commit -a -m "first commit"
+git log
+git status
+ nano .gitignore
+git add *
+git status
+ git commit -a -m "second commit"
+git status
+ git rm LM-UK-CG-Pallavi-Sinha.doc
+git rm Morgan_Stanley-Interview-Questions.txt
+git status
+ git rm --cached Jenkins.pdf
+git status
+git log
+git commit -a -m "third commit"
+git status
+git log
+git tag --a v1.3 f726f27c278221af9d4fb408f53fd3e8ce9a3333 -m "added a tag to second previous commit"
+ git tag
+git show v1.3
+git status
+ git branch
+ git branch development
+git checkout development
+git branch
+ git checkout -b testing
+git branch
+git merge master
+git merge development
+git branch feed1
+git branch feed2
+git merge feed1
+git branch -d feed1
+ git branch -D feed2
+
+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
+--------------------------
+netstat -ano | findstr :<port_number>
+ 
+taskkill /PID <PID> /F
+ 
+taskkill /PID 1234 /F
+ 
